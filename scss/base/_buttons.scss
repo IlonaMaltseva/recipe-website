@@ -1,0 +1,28 @@
+.btn{
+    display: inline-block;
+    font-family: $base-font-sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: .01em;
+    padding: 8px 20px;
+    background: transparent;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: all .35s ease;
+    @include media(">=desktop") {
+    }
+
+    &--primary{
+        color: $brand-color;
+        border-color: $brand-color;
+        &:hover{
+            background-color: $accent-color;
+            border-color: $accent-color;
+            color: #fff;
+        }
+    }
+}

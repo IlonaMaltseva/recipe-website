@@ -1,0 +1,94 @@
+// forms
+
+form,
+fieldset {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+label {
+	display: block;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+input.form-control,
+textarea {
+	display: block;
+	width: 100%;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	font-size: 16px;
+	line-height: 1.2;
+	color: $base-text-color;
+	height: 38px;
+	background: transparent;
+	padding: 0 16px;
+	border: 1px solid rgba($color: $base-text-color, $alpha: .2);
+	border-radius: 0;
+	box-sizing: border-box;
+	@include placeholder {
+		color: $base-text-color;
+	}
+}
+
+select{
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	color: #71737f;
+	border: 1px solid #f3f3f3;
+	height: 34px;
+	padding: 0 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: transparent;
+	background-image: url("data:image/svg+xml,%3Csvg width='14' height='5' viewBox='0 0 16 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.66854 8.28191C8.08693 8.7003 8.76639 8.7003 9.18478 8.28191L15.6112 1.85549C16.0296 1.43711 16.0296 0.757646 15.6112 0.339259C15.1928 -0.0791274 14.5133 -0.0791274 14.095 0.339259L8.42499 6.00924L2.75501 0.342607C2.33662 -0.0757801 1.65716 -0.0757801 1.23878 0.342607C0.820391 0.760993 0.820391 1.44045 1.23878 1.85884L7.6652 8.28526L7.66854 8.28191Z' fill='black'/%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	background-position-x: 98%;
+	background-position-y: 50%;
+}
+
+
+textarea{
+	height: 116px;
+	resize: none;
+	padding-top: 10px;
+}
+
+.search-form{
+	position: relative;
+	width: 100%;
+	margin: 0;
+	&__btn{
+		position: absolute;
+		top: 50%;
+		right: 16px;
+		transform: translateY(-50%);
+		padding: 0;
+		border: none;
+		background: transparent;
+		cursor: pointer;
+		svg{
+			fill: $base-text-color;
+		}
+	}
+
+	.form-control{
+		padding-right: 40px;
+	}
+}

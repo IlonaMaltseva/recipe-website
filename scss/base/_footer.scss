@@ -1,0 +1,21 @@
+.footer {
+    font-size: 14px;
+    background-color: #f7f9f7;
+    padding: 20px 0;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px 20px;
+        @include media(">=desktop") {
+            flex-direction: row;
+        }
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}

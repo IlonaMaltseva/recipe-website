@@ -1,0 +1,54 @@
+// Colors
+// Color calculator - http://razorjam.github.io/sasscolourfunctioncalculator/
+// Color names - http://name-of-color.com/
+
+$gray: #999;
+$black: #000;
+$white: #fff;
+$brand-color: #7fd8d2;
+$accent-color: #5ea9a4;
+
+$base-font-sans-serif: 'Roboto',  sans-serif;
+$base-font-headings: 'Poppins',  sans-serif;
+$base-font-logo: 'Ms Madi',  cursive;
+
+
+// Body
+$base-text-color: #757575 !default;
+$base-background-color: #fff !default;
+$font-size-base: 16px !default;
+$line-height-base: 1.5 !default;
+$base-font-family: $base-font-sans-serif !default;
+
+$vertical-rhythm: ($line-height-base * 1em);
+
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $accent-color;
+
+// Buttons 
+$btn-color: $white !default;
+$btn-background: $black !default;
+$btn-padding: 0.4em 0.7em !default;
+$btn-font-size: inherit !default;
+
+// Forms
+$form-element-padding: $btn-padding !default;
+$form-element-border-color: $gray !default;
+$form-element-focus-border-color: $black !default;
+$placeholder-color: $gray !default;
+
+// Headers
+$h1-font-size: 48px !default;
+$h2-font-size: 36px !default;
+$h3-font-size: 28px !default;
+$h4-font-size: 22px !default;
+$h5-font-size: 18px !default;
+$h6-font-size: 16px !default;
+
+$headings-font-family: inherit !default;
+$headings-color: inherit !default;
+
+
+$animation-speed: 0.3s;

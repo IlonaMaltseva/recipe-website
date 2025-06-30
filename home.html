@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Recipe Website</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link media="all" rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<a href="/recipe-website/home.html" class="header-logo">
+					<span class="header-logo__title">Flavorly</span>
+					<span class="header-logo__subtitle">Recipe Website</span>
+				</a>
+				<a href="#" class="nav-opener"><span>Menu</span></a>
+				<div class="nav-drop">
+					<nav class="nav">
+						<ul class="nav__menu">
+							<li class="nav__item active"><a href="/recipe-website/home.html" class="nav__link">Home</a></li>
+							<li class="nav__item"><a href="/recipe-website/recipes.html" class="nav__link">Recipes</a></li>
+							<li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+							<li class="nav__item"><a href="/recipe-website/contact.html" class="nav__link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="section-hero">
+				<div class="container">
+					<div class="hero-content">
+						<h1>Welcome to My Recipe Website</h1>
+						<p>Discover a world of delicious recipes, simple ingredients, and easy-to-follow instructions.
+							Whether you're a seasoned chef or just starting out, you'll find something to inspire your
+							next
+							meal.</p>
+						<p>Start exploring and unleash your inner chef!</p>
+					</div>
+				</div>
+				<div class="bg-stretch">
+					<img src="img/hero-img-01.jpg" width="1440" alt="image description">
+				</div>
+			</section>
+			<section class="section">
+				<div class="container">
+					<h2>Explore Our Recipe Categories</h2>
+					<div class="feature-slider swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="feature-card">
+									<div class="feature-card__image">
+										<img src="img/feature-img-04.jpg" width="540" alt="image description">
+									</div>
+									<div class="feature-card__content">
+										<h4 class="feature-card__title">Appetizers</h4>
+									</div>
+									<a href="/recipe-website/recipes/appetizers/apperetive.html" class="feature-card__link">&nbsp;</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="feature-card">
+									<div class="feature-card__image">
+										<img src="img/feature-img-06.jpg" width="540" alt="image description">
+									</div>
+									<div class="feature-card__content">
+										<h4 class="feature-card__title">Main courses</h4>
+									</div>
+									<a href="/recipe-website/recipes/main-courses/main-courses.html"
+										class="feature-card__link">&nbsp;</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="feature-card">
+									<div class="feature-card__image">
+										<img src="img/feature-img-03.jpg" width="540" alt="image description">
+									</div>
+									<div class="feature-card__content">
+										<h4 class="feature-card__title">Desserts</h4>
+									</div>
+									<a href="/recipe-website/recipes/desserts/desserts.html" class="feature-card__link">&nbsp;</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="feature-card feature-card--disabled">
+									<div class="feature-card__image">
+										<span class="badge">Coming Soon</span>
+										<img src="img/feature-img-01.jpg" width="540" alt="image description">
+									</div>
+									<div class="feature-card__content">
+										<h4 class="feature-card__title">Breakfasts</h4>
+									</div>
+									<a href="#" class="feature-card__link">&nbsp;</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="feature-card feature-card--disabled">
+									<div class="feature-card__image">
+										<span class="badge">Coming Soon</span>
+										<img src="img/feature-img-05.jpg" width="540" alt="image description">
+									</div>
+									<div class="feature-card__content">
+										<h4 class="feature-card__title">Salads</h4>
+									</div>
+									<a href="#" class="feature-card__link">&nbsp;</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="feature-card feature-card--disabled">
+									<div class="feature-card__image">
+										<span class="badge">Coming Soon</span>
+										<img src="img/feature-img-02.jpg" width="540" alt="image description">
+									</div>
+									<div class="feature-card__content">
+										<h4 class="feature-card__title">Soups</h4>
+									</div>
+									<a href="#" class="feature-card__link">&nbsp;</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link">Terms and Conditions</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+				</ul>
+				<span class="footer__copyright">&copy; 2025 Recipe Website. All rights reserved.</span>
+			</div>
+		</footer>
+	</div>
+	<script src="js/all.js"></script>
+</body>
+
+</html>
