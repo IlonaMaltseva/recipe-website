@@ -1935,7 +1935,7 @@ body.nav-active .nav-opener:before {
   }
 }
 
-.hero-content {
+.section-hero__content {
   max-width: 900px;
   padding: 24px 16px;
   margin-left: auto;
@@ -1945,16 +1945,16 @@ body.nav-active .nav-opener:before {
   background-color: rgba(94, 169, 164, 0.7);
 }
 @media (min-width: 768px) {
-  .hero-content {
+  .section-hero__content {
     padding: 48px 40px;
   }
 }
 @media (min-width: 1024px) {
-  .hero-content {
+  .section-hero__content {
     font-size: 18px;
   }
 }
-.hero-content h1 {
+.section-hero__content h1 {
   color: #fff;
 }
 
